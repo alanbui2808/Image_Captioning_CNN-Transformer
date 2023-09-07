@@ -1,5 +1,5 @@
 <h2 align='center'> Project Description </h2>
-<h4 align='center'><img src="https://github.com/alanbui2808/RSNA-MICCAI_Brain_Tumor_Radiogenomic_Classification/assets/47062764/49c990e5-2cb6-4f2e-8866-baa6e1d03117" alt="my banner"> </h4>
+<h4 align='center'><img src="https://github.com/alanbui2808/Image_Captioning_CNN-Transformer/assets/47062764/4d14824c-848d-4893-a876-ad14bd27f267" alt="my banner"> </h4>
 
 Image captioning is a well studied field due to its wide range of application such as human-computer interaction, adding subtitles to video, visual question answering and image search by keywords to name a few. Realizing similar images tend to have similar captions, thus given new input image, we will try to find similar images from the dataset and use their captions to generate a new caption for the input image. The input image will go under feature extraction and then will be queried against images that have similar features extracted in the database by measuring their cosine similarity. Pretrained ResNET50 is used for this task. Grabbing those captions, T5 is used to summarize those captions in order to generate the caption for the input image. The metrics used is BLEU score. The method is then compared to SOTA methods, in this case we choose to train a CNN-LSTM.
 
@@ -39,3 +39,4 @@ Flickr8k dataset - one of the most common dataset used for image-captioning task
 ### How to Run<a name="run"></a>
 * The notebook is pretty straightforward, you are recommended to run on Google Colab. However uploading the dataset can be a hassle :)
   
+
